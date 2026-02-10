@@ -32,4 +32,4 @@ Amp is Sourcegraph's AI coding agent that combines deep codebase search with age
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/amp.md) · Managed by [Sylph.AI](https://sylph.ai)*
+*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/amp.md)*

@@ -25,4 +25,4 @@ Want to help? [Open an issue](https://github.com/SylphAI-Inc/coding_agent/issues
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/benchmarks/overview.md) · Managed by [Sylph.AI](https://sylph.ai)*
+*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/benchmarks/overview.md)*

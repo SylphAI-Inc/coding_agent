@@ -43,4 +43,4 @@ GitHub Copilot is the most widely adopted AI coding assistant. It provides inlin
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/github-copilot.md) · Managed by [Sylph.AI](https://sylph.ai)*
+*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/github-copilot.md)*

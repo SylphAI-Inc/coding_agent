@@ -34,4 +34,4 @@ Gemini CLI is Google's open-source terminal-based coding agent. It offers a gene
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/gemini-cli.md) · Managed by [Sylph.AI](https://sylph.ai)*
+*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/gemini-cli.md)*

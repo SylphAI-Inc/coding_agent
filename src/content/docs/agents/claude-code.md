@@ -73,4 +73,4 @@ Skills are reusable capabilities stored in `.claude/skills/`. See [Skills format
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/claude-code.md) · Managed by [Sylph.AI](https://sylph.ai)*
+*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/claude-code.md)*

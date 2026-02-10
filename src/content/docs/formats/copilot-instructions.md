@@ -33,4 +33,4 @@ GitHub Copilot now also reads AGENTS.md files.
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/formats/copilot-instructions.md) · Managed by [Sylph.AI](https://sylph.ai)*
+*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/formats/copilot-instructions.md)*

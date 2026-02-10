@@ -71,4 +71,4 @@ The agent will read your codebase, plan, implement, and optionally test.
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/guides/getting-started.md) · Managed by [Sylph.AI](https://sylph.ai)*
+*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/guides/getting-started.md)*

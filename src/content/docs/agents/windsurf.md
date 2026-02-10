@@ -33,4 +33,4 @@ Windsurf is an AI-powered IDE featuring Cascade — an agentic system that maint
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/windsurf.md) · Managed by [Sylph.AI](https://sylph.ai)*
+*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/windsurf.md)*

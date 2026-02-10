@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { URLS } from '../constants';
 
-const API_URL = 'https://backend-beige-six-80.vercel.app';
+const API_URL = URLS.SUBSCRIBE_API;
 
 export default function SubscribeForm() {
   const [email, setEmail] = useState('');

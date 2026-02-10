@@ -33,4 +33,4 @@ OpenAI Codex is a cloud-based coding agent that runs in a sandboxed environment.
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/openai-codex.md) · Managed by [Sylph.AI](https://sylph.ai)*
+*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/openai-codex.md)*

@@ -179,4 +179,4 @@ On a tight budget?
 
 ---
 
-*Managed by [Sylph.AI](https://sylph.ai) · Built with [AdaL CLI](https://github.com/adal-cli/adal)*
+*Built with [AdaL CLI](https://sylph.ai)*
