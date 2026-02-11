@@ -106,6 +106,12 @@ starlight-theme-select,
   fill: rgba(255, 255, 255, 0.82) !important;
 }
 
+/* Make GitHub icon in header slightly bigger */
+header.header .social-icons a svg {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+
 
 
 .hero {
