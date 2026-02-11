@@ -91,4 +91,3 @@ my-monorepo/
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/formats/agents-md.md)*

@@ -34,4 +34,3 @@ CrewAI models multi-agent systems as teams with roles. You define agents with sp
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/crewai.md)*

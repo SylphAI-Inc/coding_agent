@@ -34,4 +34,3 @@ Cline is an open-source VS Code extension that provides autonomous AI coding cap
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/cline.md)*

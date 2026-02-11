@@ -47,4 +47,3 @@ Cursor now also reads AGENTS.md for universal instructions.
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/formats/cursorrules.md)*

@@ -31,4 +31,3 @@ Smolagents is Hugging Face's minimalist agent framework. Agents write Python cod
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/smolagents.md)*

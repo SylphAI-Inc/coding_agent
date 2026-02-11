@@ -7,7 +7,7 @@ export default defineConfig({
   site: "https://codingagent.md",
   devToolbar: { enabled: false },
   integrations: [starlight({
-    title: "CodingAgent.md",
+    title: "CodingAgents.md",
     description:
       "The Aggregator Hub for the AI Coding Agent Ecosystem. Every agent. Every format. One place.",
     logo: {
@@ -79,7 +79,7 @@ export default defineConfig({
     ],
     editLink: {
       baseUrl:
-        "https://github.com/SylphAI-Inc/coding_agent/edit/main/",
+        "https://github.com/SylphAI-Inc/codingagents.md/edit/main/",
     },
     lastUpdated: true,
   }), react()],

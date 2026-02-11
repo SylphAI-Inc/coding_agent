@@ -34,4 +34,3 @@ OpenHands (formerly OpenDevin) is the leading open-source platform for cloud cod
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/openhands.md)*

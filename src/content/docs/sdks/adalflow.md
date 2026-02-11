@@ -62,4 +62,3 @@ response = generator(prompt_kwargs={"question": "How do I reverse a linked list?
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/adalflow.md)*

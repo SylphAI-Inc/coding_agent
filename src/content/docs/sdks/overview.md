@@ -69,4 +69,3 @@ Building a coding agent?
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/overview.md)*

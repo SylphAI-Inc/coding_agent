@@ -54,4 +54,3 @@ Brief description of what this project does.
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/formats/claude-md.md)*

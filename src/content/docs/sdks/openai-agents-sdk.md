@@ -34,4 +34,3 @@ The OpenAI Agents SDK is OpenAI's official framework for building AI agents. It 
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/openai-agents-sdk.md)*

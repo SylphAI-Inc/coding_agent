@@ -33,4 +33,3 @@ SWE-agent is a research framework from Princeton NLP that enables LLMs to autono
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/swe-agent.md)*

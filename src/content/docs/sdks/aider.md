@@ -36,4 +36,3 @@ Aider is the original AI pair programming tool for the terminal. It pioneered ma
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/aider.md)*

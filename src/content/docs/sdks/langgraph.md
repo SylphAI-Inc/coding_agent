@@ -38,4 +38,3 @@ It's the most popular choice for complex, multi-step agent workflows where you n
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/langgraph.md)*

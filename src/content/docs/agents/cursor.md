@@ -64,4 +64,3 @@ Cursor also reads AGENTS.md (universal format).
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/agents/cursor.md)*

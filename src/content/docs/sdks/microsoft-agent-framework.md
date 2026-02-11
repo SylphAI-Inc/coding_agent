@@ -31,4 +31,3 @@ Microsoft Agent Framework unifies AutoGen (multi-agent conversations) and Semant
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/microsoft-agent-framework.md)*

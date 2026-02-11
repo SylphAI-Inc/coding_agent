@@ -1,13 +1,12 @@
 <div align="center">
 
-<img src="public/logo.png" alt="codingagent.md" width="80">
+<img src="public/logo.png" alt="codingagents.md" width="80">
 
-# codingagent.md
+# CODINGAGENTS.md
 
-**The Aggregator Hub for the AI Coding Agent Ecosystem**<br>
-Every agent. Every format. One place.
+**The open directory for coding agents, models, SDKs, benchmarks, tools, MCPs, skills, protocols, and research.**
 
-[![Visit Site](https://img.shields.io/badge/🌐_codingagent.md-live-00FF88?style=for-the-badge)](https://codingagent.md)
+[![Visit Site](https://img.shields.io/badge/🌐_codingagents.md-live-00FF88?style=for-the-badge)](https://codingagents.md)
 [![Built with AdaL](https://img.shields.io/badge/Built_with-AdaL_CLI-blueviolet?style=for-the-badge)](https://sylph.ai)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 

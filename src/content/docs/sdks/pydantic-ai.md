@@ -31,4 +31,3 @@ Pydantic AI brings type safety to AI agents. Built by the Pydantic team, it prov
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/sdks/pydantic-ai.md)*

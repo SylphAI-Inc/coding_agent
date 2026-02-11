@@ -21,8 +21,7 @@ We're preparing comprehensive benchmarks comparing AI coding agents across:
 
 ## Contribute
 
-Want to help? [Open an issue](https://github.com/SylphAI-Inc/coding_agent/issues) or submit a PR.
+Want to help? [Open an issue](https://github.com/SylphAI-Inc/codingagents.md/issues) or submit a PR.
 
 ---
 
-*[Edit this page](https://github.com/SylphAI-Inc/coding_agent/edit/main/src/content/docs/benchmarks/overview.md)*

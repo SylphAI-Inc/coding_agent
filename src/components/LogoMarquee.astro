@@ -1,0 +1,195 @@
+---
+// Logo size constant - change this to resize all logos uniformly
+const LOGO_BASE_SIZE = 100; // pixels
+
+const agents = [
+  { name: "Cline", logo: "/logos/cline.svg", url: "https://cline.bot/" },
+  { name: "Antigravity", logo: "/logos/antigravity.svg", url: "https://antigravity.google/" },
+  { name: "Goose", logo: "/logos/goose.svg", url: "https://block.github.io/goose" },
+  { name: "Cursor", logo: "/logos/cursor.svg", url: "https://cursor.sh/" },
+  { name: "Claude Code", logo: "/logos/claude-code.svg", url: "https://claude.com/product/claude-code" },
+  { name: "AdaL CLI", logo: "/logos/adal.svg", url: "https://sylph.ai" },
+  { name: "Codex", logo: "/logos/codex.svg", url: "https://openai.com/codex" },
+  { name: "GitHub Copilot", logo: "/logos/copilot.svg", url: "https://github.com/features/copilot" },
+  { name: "Gemini", logo: "/logos/gemini.svg", url: "https://gemini.google.com/" },
+  { name: "Windsurf", logo: "/logos/windsurf.svg", url: "https://codeium.com/windsurf" },
+  { name: "Amp", logo: "/logos/amp.svg", url: "https://ampcode.com/" },
+  { name: "Roo", logo: "/logos/roo.svg", url: "https://roocode.com/" },
+  { name: "Trae", logo: "/logos/trae.svg", url: "https://www.trae.ai/" },
+  { name: "Kilo", logo: "/logos/kilo.svg", url: "https://kilo.ai/" },
+];
+---
+
+<div class="marquee-section" style={`--logo-size: ${LOGO_BASE_SIZE}px;`}>
+  <h2 class="marquee-heading">AGENTS WE COVER</h2>
+  <div class="marquee-container">
+    <div class="marquee-fade marquee-fade-left"></div>
+    <div class="marquee-fade marquee-fade-right"></div>
+    <div class="marquee-track">
+      {/* Triple the logos for seamless infinite scroll */}
+      {agents.map((agent) => (
+        <a href={agent.url} target="_blank" rel="noopener noreferrer" class="marquee-item" title={agent.name}>
+          <img src={agent.logo} alt={agent.name} loading="eager" />
+          <span>{agent.name}</span>
+        </a>
+      ))}
+      {agents.map((agent) => (
+        <a href={agent.url} target="_blank" rel="noopener noreferrer" class="marquee-item" aria-hidden="true" tabindex="-1" title={agent.name}>
+          <img src={agent.logo} alt="" loading="eager" />
+          <span>{agent.name}</span>
+        </a>
+      ))}
+      {agents.map((agent) => (
+        <a href={agent.url} target="_blank" rel="noopener noreferrer" class="marquee-item" aria-hidden="true" tabindex="-1" title={agent.name}>
+          <img src={agent.logo} alt="" loading="eager" />
+          <span>{agent.name}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .marquee-section {
+    margin: 1rem 0 5rem;
+    padding: 2rem 0 4rem;
+    text-align: center;
+    overflow: visible;
+    min-height: 180px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  .marquee-heading {
+    font-family: var(--sl-font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+
+  .marquee-container {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding-bottom: 1.5rem;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.03) 5%, rgba(0,0,0,0.08) 10%, rgba(0,0,0,0.15) 18%, rgba(0,0,0,0.35) 28%, rgba(0,0,0,0.7) 38%, black 45%, black 55%, rgba(0,0,0,0.7) 62%, rgba(0,0,0,0.35) 72%, rgba(0,0,0,0.15) 82%, rgba(0,0,0,0.08) 90%, rgba(0,0,0,0.03) 95%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.03) 5%, rgba(0,0,0,0.08) 10%, rgba(0,0,0,0.15) 18%, rgba(0,0,0,0.35) 28%, rgba(0,0,0,0.7) 38%, black 45%, black 55%, rgba(0,0,0,0.7) 62%, rgba(0,0,0,0.35) 72%, rgba(0,0,0,0.15) 82%, rgba(0,0,0,0.08) 90%, rgba(0,0,0,0.03) 95%, transparent 100%);
+  }
+
+  .marquee-fade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4rem;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .marquee-fade-left {
+    left: 0;
+    background: linear-gradient(to right, #080505, transparent);
+  }
+
+  .marquee-fade-right {
+    right: 0;
+    background: linear-gradient(to left, #080505, transparent);
+  }
+
+  @keyframes marquee-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-33.333%);
+    }
+  }
+
+  .marquee-track {
+    display: flex;
+    gap: 2rem;
+    width: max-content;
+    animation: marquee-scroll 40s linear infinite;
+    animation-delay: -4s;
+  }
+
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+
+  .marquee-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    text-decoration: none;
+    opacity: 1;
+    filter: brightness(1.1);
+    transition: all 0.3s ease;
+  }
+
+  .marquee-item:hover {
+    opacity: 1;
+    filter: brightness(1.5) drop-shadow(0 0 12px rgba(255, 255, 255, 0.6));
+    transform: scale(1.1);
+  }
+
+  .marquee-item img {
+    height: var(--logo-size);
+    width: var(--logo-size);
+    object-fit: contain;
+  }
+
+  /* AdaL logo fills its viewBox while others have ~60% padding - scale down to match */
+  .marquee-item img[src="/logos/adal.svg"] {
+    transform: scale(0.45);
+  }
+
+  .marquee-item span {
+    font-family: var(--sl-font-mono);
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
+  .marquee-item:hover span {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  @media (min-width: 768px) {
+    .marquee-fade {
+      width: 6rem;
+    }
+
+    .marquee-section {
+      --logo-size: calc(var(--logo-size) * 1.15);
+    }
+
+    .marquee-track {
+      gap: 2.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .marquee-fade {
+      width: 8rem;
+    }
+
+    .marquee-section {
+      --logo-size: calc(var(--logo-size) * 1.4);
+    }
+
+    .marquee-track {
+      gap: 3.5rem;
+    }
+  }
+</style>
