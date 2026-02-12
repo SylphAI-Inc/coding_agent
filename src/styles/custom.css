@@ -160,8 +160,8 @@ header.header .social-icons a svg {
 }
 
 .hero .tagline {
-  color: rgba(255, 255, 255, 0.78) !important;
-  font-weight: 300;
+  color: rgba(255, 255, 255, 0.92) !important;
+  font-weight: 400;
   font-size: 1.1rem;
   letter-spacing: -0.01em;
   max-width: 600px;
@@ -725,4 +725,41 @@ button.copy:hover {
     min-width: 160px;
     padding: 0.85rem 2rem !important;
   }
+}
+
+/* Models section - centered */
+.models-section {
+  text-align: center;
+  max-width: 900px;
+  margin-inline: auto;
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+
+.models-section h2 {
+  text-align: center;
+}
+
+.models-section p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.models-section table {
+  margin-inline: auto;
+  text-align: left;
+}
+
+/* Stay updated section - centered */
+.subscribe-section {
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.subscribe-section h2 {
+  text-align: center;
 }
