@@ -3,13 +3,13 @@ title: "CODINGAGENTS.md"
 description: "The open directory for coding agents, models, SDKs, benchmarks, tools, MCPs, skills, protocols, and research."
 template: splash
 hero:
-  tagline: "The open directory for coding agents, models, SDKs, benchmarks, tools, MCPs, skills, protocols, and research."
+  tagline: "The open directory for everything coding agents.<br/>agents.md guides agents. codingagents.md helps humans pick the right one."
   actions:
     - text: Explore Agents
       link: /agents/claude-code/
       icon: right-arrow
       variant: primary
-    - text: GitHub
+    - text: Contribute on GitHub
       link: https://github.com/SylphAI-Inc/codingagents.md
       icon: external
       variant: minimal
@@ -22,41 +22,24 @@ import LogoMarquee from "../../../src/components/LogoMarquee.astro";
 <LogoMarquee />
 
 <CardGrid>
-  <Card title="10+ Agents">
-    AdaL CLI · Claude Code · Cursor · Copilot · Codex · Gemini CLI · Devin · Windsurf · Amp
-  </Card>
-  <Card title="5+ Config Formats">
-    AGENTS.md · CLAUDE.md · .cursorrules · copilot-instructions.md · SKILL.md
-  </Card>
-  <Card title="2 Protocols">
-    MCP (Model Context Protocol) · ACP (Agent Client Protocol)
-  </Card>
-  <Card title="7+ Agent SDKs">
-    AdalFlow · LangGraph · OpenAI Agents SDK · CrewAI · Microsoft Agent Framework · Pydantic AI · Smolagents
-  </Card>
-</CardGrid>
-
-## Navigate the ecosystem
-
-<CardGrid>
   <LinkCard
-    title="Coding Agents"
-    description="Profiles and comparisons of every major AI coding agent"
+    title="10+ Coding Agents"
+    description="AdaL CLI · Claude Code · Cursor · Copilot · Codex · Gemini CLI · Devin · Windsurf · Amp"
     href="/agents/claude-code/"
   />
   <LinkCard
-    title="Config Formats"
-    description="How to write AGENTS.md, CLAUDE.md, .cursorrules, and more"
+    title="5+ Config Formats"
+    description="AGENTS.md · CLAUDE.md · .cursorrules · copilot-instructions.md · SKILL.md"
     href="/formats/agents-md/"
   />
   <LinkCard
-    title="Protocols"
-    description="MCP vs ACP — what they do and how they compare"
+    title="2 Protocols"
+    description="MCP (Model Context Protocol) · ACP (Agent Client Protocol)"
     href="/protocols/mcp/"
   />
   <LinkCard
-    title="Agent SDKs"
-    description="AdalFlow, LangGraph, OpenAI Agents SDK, CrewAI, and more — the frameworks behind the agents"
+    title="7+ Agent SDKs"
+    description="AdalFlow · LangGraph · OpenAI Agents SDK · CrewAI · Microsoft Agent Framework · Pydantic AI · Smolagents"
     href="/sdks/overview/"
   />
   <LinkCard
@@ -65,6 +48,8 @@ import LogoMarquee from "../../../src/components/LogoMarquee.astro";
     href="/guides/getting-started/"
   />
 </CardGrid>
+
+<div class="models-section">
 
 ## Models powering the agents
 
@@ -81,8 +66,14 @@ Which LLMs perform best for coding? We track benchmarks weekly. [Full rankings �
 | DeepSeek V3 | DeepSeek | 42.0% | 128K | Budget-friendly |
 | Qwen 2.5 Coder 32B | Alibaba | — | 128K | Local / privacy-first |
 
+</div>
+
+<div class="subscribe-section">
+
 ## Stay updated
 
 <SubscribeForm client:load />
+
+</div>
 
 
