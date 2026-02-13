@@ -38,6 +38,7 @@ These are **general agent frameworks** that can be used to build coding agents, 
 | [**Microsoft Agent Framework**](/sdks/microsoft-agent-framework/) | Microsoft | AutoGen + Semantic Kernel | Enterprise .NET |
 | [**Pydantic AI**](/sdks/pydantic-ai/) | Pydantic | Type-safe, model-agnostic | Production APIs |
 | [**Smolagents**](/sdks/smolagents/) | Hugging Face | Lightweight, code-first | Prototyping |
+| [**Strands Agents**](/sdks/strands-agents/) | AWS | Model-driven, provider-agnostic | Multi-agent systems |
 
 ## Non-Coding Agent SDKs (Brief)
 

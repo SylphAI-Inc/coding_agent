@@ -25,7 +25,7 @@ The coding agent ecosystem is fragmenting fast. Developers need a single source 
 | **10+ agents** | AdaL CLI · Claude Code · Cursor · Copilot · Codex · Gemini CLI · Devin · Windsurf · Amp |
 | **5+ formats** | AGENTS.md · CLAUDE.md · .cursorrules · copilot-instructions.md · SKILL.md |
 | **2 protocols** | MCP (Model Context Protocol) · ACP (Agent Client Protocol) |
-| **7+ SDKs** | AdalFlow · LangGraph · OpenAI Agents SDK · CrewAI · Pydantic AI · Smolagents |
+| **8+ SDKs** | AdalFlow · LangGraph · OpenAI Agents SDK · CrewAI · Pydantic AI · Smolagents · Strands Agents |
 | **60K+ repos** | Already shipping AGENTS.md files across open source |
 
 ## 📖 Content
